@@ -1,4 +1,4 @@
-package com.jadson.bankservice.gateway.exceptions;
+package com.jadson.microservices.bank.gateway.exceptions;
 
 public class PagamentoException extends RuntimeException {
 

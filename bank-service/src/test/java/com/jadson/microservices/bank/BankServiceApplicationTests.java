@@ -1,4 +1,4 @@
-package com.jadson.bankservice;
+package com.jadson.microservices.bank;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

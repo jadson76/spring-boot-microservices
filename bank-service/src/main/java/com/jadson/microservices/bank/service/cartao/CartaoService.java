@@ -1,8 +1,8 @@
-package com.jadson.bankservice.service.cartao;
+package com.jadson.microservices.bank.service.cartao;
 
 
-import com.jadson.bankservice.domain.Cartao;
-import com.jadson.bankservice.gateway.repository.CartaoRepository;
+import com.jadson.microservices.bank.domain.Cartao;
+import com.jadson.microservices.bank.gateway.repository.CartaoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.jadson.bankservice.gateway.exceptions;
+package com.jadson.microservices.bank.gateway.exceptions;
 
-import com.br.ms.communication.bank.gateway.json.RetornoJson;
+import com.jadson.microservices.bank.gateway.json.RetornoJson;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

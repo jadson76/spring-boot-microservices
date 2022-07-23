@@ -1,4 +1,4 @@
-package com.jadson.bankservice.domain;
+package com.jadson.microservices.bank.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

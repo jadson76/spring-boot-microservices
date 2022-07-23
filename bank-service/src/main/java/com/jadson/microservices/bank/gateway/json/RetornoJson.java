@@ -1,4 +1,4 @@
-package com.jadson.bankservice.gateway.json;
+package com.jadson.microservices.bank.gateway.json;
 
 public class RetornoJson {
 	

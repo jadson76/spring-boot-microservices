@@ -1,9 +1,9 @@
-package com.jadson.bankservice.service.pagamento;
+package com.jadson.microservices.bank.service.pagamento;
 
-import com.jadson.bankservice.domain.Pagamento;
-import com.jadson.bankservice.gateway.json.PagamentoJson;
-import com.jadson.bankservice.gateway.repository.PagamentoRepository;
-import com.jadson.bankservice.service.cartao.ICartaoService;
+import com.jadson.microservices.bank.domain.Pagamento;
+import com.jadson.microservices.bank.gateway.json.PagamentoJson;
+import com.jadson.microservices.bank.gateway.repository.PagamentoRepository;
+import com.jadson.microservices.bank.service.cartao.ICartaoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.jadson.bankservice.gateway.repository;
+package com.jadson.microservices.bank.gateway.repository;
 
-import com.jadson.bankservice.domain.Cartao;
+import com.jadson.microservices.bank.domain.Cartao;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.Repository;

@@ -1,8 +1,8 @@
-package com.jadson.bankservice.gateway.resource;
+package com.jadson.microservices.bank.gateway.resource;
 
-import com.jadson.bankservice.gateway.json.PagamentoJson;
-import com.jadson.bankservice.gateway.json.RetornoJson;
-import com.jadson.bankservice.service.pagamento.IPagamentoService;
+import com.jadson.microservices.bank.gateway.json.PagamentoJson;
+import com.jadson.microservices.bank.gateway.json.RetornoJson;
+import com.jadson.microservices.bank.service.pagamento.IPagamentoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

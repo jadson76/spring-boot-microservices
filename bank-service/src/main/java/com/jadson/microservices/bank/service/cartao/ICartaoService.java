@@ -1,6 +1,6 @@
-package com.jadson.bankservice.service.cartao;
+package com.jadson.microservices.bank.service.cartao;
 
-import com.jadson.bankservice.domain.Cartao;
+import com.jadson.microservices.bank.domain.Cartao;
 
 import java.math.BigDecimal;
 
