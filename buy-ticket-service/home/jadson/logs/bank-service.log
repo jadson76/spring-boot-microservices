@@ -1,0 +1,4 @@
+2022-07-24 17:14:32,707 INFO com.jadson.microservices.buyticket.BuyTicketApplication [main] Starting BuyTicketApplication on jadson-System-Product-Name with PID 6822 (/home/jadson/microservicos/spring-boot-microservices/buy-ticket-service/target/classes started by jadson in /home/jadson/microservicos/spring-boot-microservices/buy-ticket-service)
+2022-07-24 17:14:32,710 DEBUG com.jadson.microservices.buyticket.BuyTicketApplication [main] Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2022-07-24 17:14:32,712 INFO com.jadson.microservices.buyticket.BuyTicketApplication [main] No active profile set, falling back to default profiles: default
+2022-07-24 17:14:34,942 INFO com.jadson.microservices.buyticket.BuyTicketApplication [main] Started BuyTicketApplication in 2.643 seconds (JVM running for 3.23)
