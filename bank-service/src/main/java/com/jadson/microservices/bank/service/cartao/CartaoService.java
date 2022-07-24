@@ -3,6 +3,8 @@ package com.jadson.microservices.bank.service.cartao;
 
 import com.jadson.microservices.bank.domain.Cartao;
 import com.jadson.microservices.bank.gateway.repository.CartaoRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +13,8 @@ import java.math.BigDecimal;
 
 @Service
 public class CartaoService implements ICartaoService{
+
+    private static final Logger logger = LoggerFactory.getLogger(CartaoService.class);
     private CartaoRepository cartaoRepository;
 
     @Autowired
@@ -36,6 +40,7 @@ public class CartaoService implements ICartaoService{
     @Override
     @Transactional
     public void atualizarSaldo(Integer codigoSegurancaCartao, Integer nroCartao, BigDecimal valorCompra) {
+        logger.debug("Atualizando saldo.");
         cartaoRepository.atualizarSaldo(codigoSegurancaCartao, nroCartao, valorCompra);
     }
 }
