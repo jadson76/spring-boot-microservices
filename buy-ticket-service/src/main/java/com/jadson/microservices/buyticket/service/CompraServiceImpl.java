@@ -3,7 +3,6 @@ package com.jadson.microservices.buyticket.service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jadson.microservices.buyticket.exceptions.JsonMapException;
-import com.jadson.microservices.buyticket.gateway.http.CompraController;
 import com.jadson.microservices.buyticket.gateway.json.CompraChaveJson;
 import com.jadson.microservices.buyticket.gateway.json.CompraJson;
 import com.jadson.microservices.buyticket.gateway.json.RetornoJson;
